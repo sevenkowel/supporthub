@@ -1,6 +1,5 @@
 ---
 sidebar_position: 4
-slug: trading-basics/order-types
 ---
 
 # 订单类型

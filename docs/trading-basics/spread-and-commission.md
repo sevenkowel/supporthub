@@ -1,6 +1,5 @@
 ---
 sidebar_position: 3
-slug: trading-basics/spread-and-commission
 ---
 
 # 点差与佣金

@@ -1,6 +1,5 @@
 ---
 sidebar_position: 3
-slug: getting-started/account-verification
 ---
 
 # 账户验证（KYC）

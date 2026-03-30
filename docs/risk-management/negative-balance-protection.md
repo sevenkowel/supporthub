@@ -1,6 +1,5 @@
 ---
 sidebar_position: 4
-slug: risk-management/negative-balance-protection
 ---
 
 # 负余额保护

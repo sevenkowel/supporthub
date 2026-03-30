@@ -1,6 +1,5 @@
 ---
 sidebar_position: 8
-slug: faq/withdrawals
 ---
 
 # 出金常见问题

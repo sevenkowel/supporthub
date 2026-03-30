@@ -1,6 +1,5 @@
 ---
 sidebar_position: 2
-slug: faq/verification
 ---
 
 # 身份验证常见问题

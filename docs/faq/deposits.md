@@ -1,6 +1,5 @@
 ---
 sidebar_position: 7
-slug: faq/deposits
 ---
 
 # 入金常见问题

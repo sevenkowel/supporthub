@@ -1,6 +1,5 @@
 ---
 sidebar_position: 1
-slug: risk-management/intro
 ---
 
 # 风险管理

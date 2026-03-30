@@ -1,6 +1,5 @@
 ---
 sidebar_position: 1
-slug: account-management/intro
 ---
 
 # 账户管理

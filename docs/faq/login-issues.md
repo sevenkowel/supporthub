@@ -1,6 +1,5 @@
 ---
 sidebar_position: 3
-slug: faq/login-issues
 ---
 
 # 登录问题常见问题

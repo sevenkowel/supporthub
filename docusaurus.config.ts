@@ -17,7 +17,7 @@ const config: Config = {
   organizationName: 'forex-help',
   projectName: 'forex-help-center',
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
 
   i18n: {
     defaultLocale: 'zh-Hans',

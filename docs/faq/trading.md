@@ -1,6 +1,5 @@
 ---
 sidebar_position: 4
-slug: faq/trading
 ---
 
 # 交易相关常见问题

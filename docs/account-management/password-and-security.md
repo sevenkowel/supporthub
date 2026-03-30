@@ -1,6 +1,5 @@
 ---
 sidebar_position: 3
-slug: account-management/password-and-security
 ---
 
 # 密码与安全

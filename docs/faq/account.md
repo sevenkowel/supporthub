@@ -1,7 +1,6 @@
 ---
 sidebar_position: 1
 sidebar_id: faqSidebar
-slug: faq/account
 ---
 
 # 账户相关常见问题

@@ -1,6 +1,5 @@
 ---
 sidebar_position: 1
-slug: trading-basics/intro
 ---
 
 # 交易基础

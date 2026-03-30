@@ -1,6 +1,5 @@
 ---
 sidebar_position: 4
-slug: deposits-withdrawals/fees-and-processing-time
 ---
 
 # 手续费与处理时间

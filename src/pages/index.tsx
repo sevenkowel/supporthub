@@ -75,7 +75,7 @@ export default function Home(): ReactNode {
   return (
     <Layout
       title={`外汇保证金帮助中心`}
-      description="外汇保证金交易专业帮助中心 — 交易指南、风险管理、账户管理及客户支持"}
+      description="外汇保证金交易专业帮助中心 — 交易指南、风险管理、账户管理及客户支持"
     >
       <HomepageHeader />
       <main>

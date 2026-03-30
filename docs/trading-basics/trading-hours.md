@@ -1,6 +1,5 @@
 ---
 sidebar_position: 5
-slug: trading-basics/trading-hours
 ---
 
 # 交易时间

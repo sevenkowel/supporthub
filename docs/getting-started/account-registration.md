@@ -1,6 +1,5 @@
 ---
 sidebar_position: 2
-slug: getting-started/account-registration
 ---
 
 # 账户注册

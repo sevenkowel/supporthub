@@ -1,6 +1,5 @@
 ---
 sidebar_position: 1
-slug: deposits-withdrawals/intro
 ---
 
 # 入金与出金

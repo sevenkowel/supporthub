@@ -1,6 +1,5 @@
 ---
 sidebar_position: 2
-slug: deposits-withdrawals/deposit-methods
 ---
 
 # 入金方式详解

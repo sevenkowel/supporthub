@@ -1,6 +1,5 @@
 ---
 sidebar_position: 6
-slug: faq/slippage
 ---
 
 # 滑点常见问题

@@ -1,6 +1,5 @@
 ---
 sidebar_position: 2
-slug: trading-basics/margin-and-leverage
 ---
 
 # 保证金与杠杆

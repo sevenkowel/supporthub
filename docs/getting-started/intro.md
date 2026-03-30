@@ -1,6 +1,5 @@
 ---
 sidebar_position: 1
-slug: getting-started/intro
 ---
 
 # 入门指南

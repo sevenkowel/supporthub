@@ -1,6 +1,5 @@
 ---
 sidebar_position: 5
-slug: getting-started/platform-download
 ---
 
 # 下载交易平台

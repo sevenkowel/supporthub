@@ -1,6 +1,5 @@
 ---
 sidebar_position: 2
-slug: account-management/account-types
 ---
 
 # 账户类型对比

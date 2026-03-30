@@ -1,6 +1,5 @@
 ---
 sidebar_position: 2
-slug: risk-management/margin-call-and-stop-out
 ---
 
 # 保证金追缴与强平
