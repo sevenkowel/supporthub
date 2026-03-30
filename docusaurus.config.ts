@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Forex Help Center',
-  tagline: '外汇保证金交易帮助中心 — 专业知识库与客户支持',
+  tagline: '外汇保证金交易帮助中心',
   favicon: 'img/favicon.ico',
 
   future: {
@@ -60,23 +60,19 @@ const config: Config = {
     ],
   ],
 
-  // Search: Configure Algolia DocSearch when ready
-  // themes: ['@docusaurus/theme-search-algolia'],
-  // plugins: ['docusaurus-lunr-search'],
-
   themeConfig: {
     image: 'img/social-card.jpg',
     colorMode: {
-      defaultMode: 'dark',
+      defaultMode: 'light',
       disableSwitch: false,
-      respectPrefersColorScheme: false,
+      respectPrefersColorScheme: true,
     },
     announcementBar: {
       id: 'announcement',
       content:
-        '📢 最新公告：平台已完成系统升级，新增 50+ 交易品种。如遇问题请联系 <a href="javascript:void(0)" onclick="window.Intercom && window.Intercom(\'show\')">在线客服</a>',
-      backgroundColor: '#0066FF',
-      textColor: '#ffffff',
+        '平台已完成系统升级，新增 50+ 交易品种。如遇问题请联系 <a href="javascript:void(0)" onclick="window.Intercom && window.Intercom(\'show\')">在线客服</a>',
+      backgroundColor: '#f6f6f7',
+      textColor: '#213547',
       isCloseable: true,
     },
     navbar: {
@@ -105,14 +101,14 @@ const config: Config = {
         },
         {
           href: 'javascript:void(0)',
-          label: '💬 联系客服',
+          label: '联系客服',
           position: 'right',
           className: 'intercom-trigger-btn',
         },
       ],
     },
     footer: {
-      style: 'dark',
+      style: 'light',
       links: [
         {
           title: '文档',
@@ -166,7 +162,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `© ${new Date().getFullYear()} Forex Help Center. All rights reserved. 外汇保证金交易存在高风险。`,
+      copyright: `© ${new Date().getFullYear()} Forex Help Center. 外汇保证金交易存在高风险。`,
     },
     prism: {
       theme: prismThemes.github,

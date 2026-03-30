@@ -31,36 +31,28 @@ const articles = [
 
 export default function PopularArticles() {
   return (
-    <section style={{padding: '80px 0', background: 'var(--ifm-background-secondary)'}}>
+    <section className="vue-articles">
       <div className="container">
-        <h2 className="section-title">热门文章</h2>
-        <p className="section-subtitle">
+        <h2 className="vue-section-title">热门文章</h2>
+        <p className="vue-section-subtitle">
           其他用户最常阅读的帮助文档
         </p>
-        <div style={{
-          display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))',
-          gap: '24px',
-          maxWidth: 1080,
-          margin: '0 auto',
-        }}>
+        <div style={{maxWidth: 720, margin: '0 auto'}}>
           {articles.map((article) => (
             <a
               key={article.title}
               href={article.link}
-              className="article-card"
+              className="vue-article-card"
             >
-              <span className="article-tag">{article.tag}</span>
-              <h3 className="article-title">{article.title}</h3>
-              <p className="article-excerpt">{article.excerpt}</p>
-              <div className="article-meta">
-                <span>⏱ {article.time}</span>
-              </div>
+              <span className="vue-article-tag">{article.tag}</span>
+              <h3 className="vue-article-title">{article.title}</h3>
+              <p className="vue-article-excerpt">{article.excerpt}</p>
+              <span className="vue-article-meta">⏱ {article.time}</span>
             </a>
           ))}
         </div>
         <div style={{textAlign: 'center', marginTop: '48px'}}>
-          <a href="/docs/getting-started/intro" className="cta-button-primary">
+          <a href="/docs/getting-started/intro" className="vue-btn-primary">
             查看全部文档 →
           </a>
         </div>

@@ -6,24 +6,3 @@
   margin-top: -60px;
   padding-top: 60px;
 }
-
-.heroBadge {
-  display: inline-block;
-  padding: 6px 18px;
-  border-radius: 50px;
-  background: rgba(255, 255, 255, 0.12);
-  backdrop-filter: blur(8px);
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  color: 'rgba(255,255,255,0.85)';
-  font-size: 14px;
-  font-weight: 600;
-  margin-bottom: 24px;
-  letter-spacing: 0.02em;
-}
-
-@media screen and (max-width: 996px) {
-  .heroBanner > .container > div {
-    padding-top: 50px !important;
-    padding-bottom: 50px !important;
-  }
-}
