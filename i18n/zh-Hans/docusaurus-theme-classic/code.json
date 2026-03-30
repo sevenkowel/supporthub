@@ -1,0 +1,106 @@
+{
+  "title": {
+    "message": "Forex Help Center",
+    "description": "The title in the navbar"
+  },
+  "tagline": {
+    "message": "外汇保证金交易帮助中心 — 专业知识库与客户支持",
+    "description": "The tagline in the navbar"
+  },
+  "item.label.Docs": {
+    "message": "文档",
+    "description": "Navbar item with label Docs"
+  },
+  "item.label.FAQ": {
+    "message": "常见问题",
+    "description": "Navbar item with label FAQ"
+  },
+  "item.label.Updates": {
+    "message": "产品更新",
+    "description": "Navbar item with label Updates"
+  },
+  "item.label.Contact": {
+    "message": "💬 联系客服",
+    "description": "Navbar item with label Contact"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "关闭",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "较新的文章",
+    "description": "The label used to navigate to the older blog posts"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "较旧的文章",
+    "description": "The label used to navigate to the newer blog posts"
+  },
+  "theme.blog.post.readingTime": {
+    "message": "${readingTime} 分钟阅读",
+    "description": "The default reading time label for blog posts"
+  },
+  "theme.docs.sidebar.expandCategoryTitle": {
+    "message": "展开分类",
+    "description": "The ARIA label and title attribute for the category collapsing button"
+  },
+  "theme.docs.sidebar.collapseCategoryTitle": {
+    "message": "收起分类",
+    "description": "The ARIA label and title attribute for the category collapsing button"
+  },
+  "theme.docs.DocCard.categoryDescription": {
+    "message": "${count} 篇文档",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.SearchBar.label": {
+    "message": "搜索",
+    "description": "The ARIA label and placeholder for search button"
+  },
+  "theme.SearchBar.seeAll": {
+    "message": "查看全部结果",
+    "description": "The label for the link to view all results"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "此为已归档版本的 ${versionName} 文档。",
+    "description": "The label used to tell the user that he's browsing an unmaintained version of the docs"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "最新的文档请参阅 {latestVersionLink} ({versionLabel})。",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "最新版本",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.common.editThisPage": {
+    "message": "编辑此页",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "标题的直接链接",
+    "description": "Title for the link to the heading"
+  },
+  "theme.LastUpdated.by": {
+    "message": "作者：{authors}",
+    "description": "The phrase used to indicate who last updated the page"
+  },
+  "theme.LastUpdated.atDate": {
+    "message": "于 {date}",
+    "description": "The phrase used to indicate when the page was last updated"
+  },
+  "theme.LastUpdated.onDate": {
+    "message": "在 {date}",
+    "description": "The phrase used to indicate when the page was last updated"
+  },
+  "theme.LastUpdated.lastUpdatedBy": {
+    "message": "最后{by}{atDate}更新",
+    "description": "The sentence used to indicate when and by who the page was last updated"
+  },
+  "theme.NotFound.title": {
+    "message": "页面未找到",
+    "description": "The title of the 404 page"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "选择语言",
+    "description": "The label for the mobile language switcher dropdown"
+  }
+}

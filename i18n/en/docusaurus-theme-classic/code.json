@@ -1,0 +1,26 @@
+{
+  "title": {
+    "message": "Forex Help Center",
+    "description": "The title in the navbar"
+  },
+  "tagline": {
+    "message": "Forex Margin Trading Help Center — Knowledge Base & Customer Support",
+    "description": "The tagline in the navbar"
+  },
+  "item.label.Docs": {
+    "message": "Docs",
+    "description": "Navbar item with label Docs"
+  },
+  "item.label.FAQ": {
+    "message": "FAQ",
+    "description": "Navbar item with label FAQ"
+  },
+  "item.label.Updates": {
+    "message": "Updates",
+    "description": "Navbar item with label Updates"
+  },
+  "item.label.Contact": {
+    "message": "💬 Contact Support",
+    "description": "Navbar item with label Contact"
+  }
+}
