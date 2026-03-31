@@ -21,7 +21,7 @@ const config: Config = {
 
   i18n: {
     defaultLocale: 'zh-Hans',
-    locales: ['zh-Hans', 'en'],
+    locales: ['zh-Hans', 'en', 'vi', 'th', 'ja', 'ko', 'id'],
     localeConfigs: {
       'zh-Hans': {
         label: '简体中文',
@@ -31,8 +31,49 @@ const config: Config = {
         label: 'English',
         direction: 'ltr',
       },
+      vi: {
+        label: 'Tiếng Việt',
+        direction: 'ltr',
+      },
+      th: {
+        label: 'ไทย',
+        direction: 'ltr',
+      },
+      ja: {
+        label: '日本語',
+        direction: 'ltr',
+      },
+      ko: {
+        label: '한국어',
+        direction: 'ltr',
+      },
+      id: {
+        label: 'Bahasa Indonesia',
+        direction: 'ltr',
+      },
     },
   },
+
+  plugins: [
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      {
+        hashed: true,
+        language: ['en', 'zh'], // 支持中英文搜索
+        highlightSearchTermsOnTargetPage: true,
+        searchResultLimits: 8,
+        searchResultContextMaxLength: 50,
+        docsRouteBasePath: '/docs',
+        indexBlog: true,
+        indexPages: true,
+        searchBarShortcutHint: true,
+        searchBarShortcut: true,
+        searchBarPosition: 'right',
+        // 显式设置搜索索引生成
+        indexDocs: true,
+      },
+    ],
+  ],
 
   presets: [
     [
@@ -105,6 +146,11 @@ const config: Config = {
           position: 'right',
           className: 'intercom-trigger-btn',
         },
+        // TODO: Enable auth navbar item after fixing import paths
+        // {
+        //   type: 'custom-authNavbarItem',
+        //   position: 'right',
+        // },
       ],
     },
     footer: {

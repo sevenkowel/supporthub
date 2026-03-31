@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "Liên kết hữu ích",
+    "description": "Tiêu đề của phần footer"
+  },
+  "link.item.label.入门指南": {
+    "message": "Hướng dẫn bắt đầu",
+    "description": "Nhãn của liên kết Hướng dẫn bắt đầu"
+  },
+  "link.item.label.交易基础知识": {
+    "message": "Kiến thức cơ bản về giao dịch",
+    "description": "Nhãn của liên kết Kiến thức cơ bản về giao dịch"
+  }
+}

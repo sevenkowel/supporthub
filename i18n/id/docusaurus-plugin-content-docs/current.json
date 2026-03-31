@@ -1,0 +1,38 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.docsSidebar.category.🚀 入门指南": {
+    "message": "🚀 入门指南",
+    "description": "The label for category '🚀 入门指南' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.📊 交易基础": {
+    "message": "📊 交易基础",
+    "description": "The label for category '📊 交易基础' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.💰 入金与出金": {
+    "message": "💰 入金与出金",
+    "description": "The label for category '💰 入金与出金' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.🛡️ 风险管理": {
+    "message": "🛡️ 风险管理",
+    "description": "The label for category '🛡️ 风险管理' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.🔧 账户管理": {
+    "message": "🔧 账户管理",
+    "description": "The label for category '🔧 账户管理' in sidebar 'docsSidebar'"
+  },
+  "sidebar.faqSidebar.category.账户相关": {
+    "message": "账户相关",
+    "description": "The label for category '账户相关' in sidebar 'faqSidebar'"
+  },
+  "sidebar.faqSidebar.category.交易相关": {
+    "message": "交易相关",
+    "description": "The label for category '交易相关' in sidebar 'faqSidebar'"
+  },
+  "sidebar.faqSidebar.category.资金相关": {
+    "message": "资金相关",
+    "description": "The label for category '资金相关' in sidebar 'faqSidebar'"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": {
+    "message": "Trung Tâm Trợ Giúp Forex",
+    "description": "Tiêu đề thanh điều hướng"
+  },
+  "item.label.文档": {
+    "message": "Tài liệu",
+    "description": "Nhãn mục thanh điều hướng Tài liệu"
+  },
+  "item.label.常见问题": {
+    "message": "Câu hỏi thường gặp",
+    "description": "Nhãn mục thanh điều hướng Câu hỏi thường gặp"
+  },
+  "item.label.产品更新": {
+    "message": "Cập nhật sản phẩm",
+    "description": "Nhãn mục thanh điều hướng Cập nhật sản phẩm"
+  },
+  "item.label.联系客服": {
+    "message": "Liên hệ CSKH",
+    "description": "Nhãn mục thanh điều hướng Liên hệ CSKH"
+  }
+}

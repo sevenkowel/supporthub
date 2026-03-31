@@ -1,0 +1,26 @@
+{
+  "title": {
+    "message": "ศูนย์ช่วยเหลือ Forex",
+    "description": "The title in the navbar"
+  },
+  "item.label.文档": {
+    "message": "เอกสาร",
+    "description": "Navbar item with label 文档"
+  },
+  "item.label.常见问题": {
+    "message": "คำถามที่พบบ่อย",
+    "description": "Navbar item with label 常见问题"
+  },
+  "item.label.产品更新": {
+    "message": "อัปเดตผลิตภัณฑ์",
+    "description": "Navbar item with label 产品更新"
+  },
+  "item.label.联系客服": {
+    "message": "ติดต่อฝ่ายบริการ",
+    "description": "Navbar item with label 联系客服"
+  },
+  "logo.alt": {
+    "message": "Forex Help Center Logo",
+    "description": "The alt text of navbar logo"
+  }
+}

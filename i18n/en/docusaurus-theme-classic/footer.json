@@ -1,0 +1,58 @@
+{
+  "title": {
+    "message": "Useful Links",
+    "description": "The title of the footer section"
+  },
+  "link.title.文档": {
+    "message": "Documentation",
+    "description": "The title of the footer links column with title=文档 in the footer"
+  },
+  "link.title.支持": {
+    "message": "Support",
+    "description": "The title of the footer links column with title=支持 in the footer"
+  },
+  "link.title.合规": {
+    "message": "Compliance",
+    "description": "The title of the footer links column with title=合规 in the footer"
+  },
+  "link.item.label.入门指南": {
+    "message": "Getting Started",
+    "description": "The label of footer link with label=入门指南 linking to /docs/getting-started/intro"
+  },
+  "link.item.label.交易教程": {
+    "message": "Trading Tutorials",
+    "description": "The label of footer link with label=交易教程 linking to /docs/trading-basics/intro"
+  },
+  "link.item.label.风险管理": {
+    "message": "Risk Management",
+    "description": "The label of footer link with label=风险管理 linking to /docs/risk-management/intro"
+  },
+  "link.item.label.常见问题": {
+    "message": "FAQ",
+    "description": "The label of footer link with label=常见问题 linking to /docs/faq/account"
+  },
+  "link.item.label.提交工单": {
+    "message": "Submit Ticket",
+    "description": "The label of footer link with label=提交工单 linking to javascript:void(0)"
+  },
+  "link.item.label.联系邮箱": {
+    "message": "Contact Email",
+    "description": "The label of footer link with label=联系邮箱 linking to mailto:support@forex-help.example.com"
+  },
+  "link.item.label.隐私政策": {
+    "message": "Privacy Policy",
+    "description": "The label of footer link with label=隐私政策 linking to /legal/privacy"
+  },
+  "link.item.label.服务条款": {
+    "message": "Terms of Service",
+    "description": "The label of footer link with label=服务条款 linking to /legal/terms"
+  },
+  "link.item.label.风险披露": {
+    "message": "Risk Disclosure",
+    "description": "The label of footer link with label=风险披露 linking to /legal/risk-disclosure"
+  },
+  "copyright": {
+    "message": "© 2026 Forex Help Center. Forex margin trading involves high risks.",
+    "description": "The footer copyright"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "产品更新",
+    "description": "The title for the blog used in SEO"
+  },
+  "description": {
+    "message": "外汇保证金产品最新动态和更新公告",
+    "description": "The description for the blog used in SEO"
+  },
+  "sidebar.title": {
+    "message": "Recent posts",
+    "description": "The label for the left sidebar"
+  }
+}

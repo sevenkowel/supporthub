@@ -1,0 +1,26 @@
+{
+  "title": {
+    "message": "Forex Help Center",
+    "description": "The title in the navbar"
+  },
+  "item.label.文档": {
+    "message": "Documentation",
+    "description": "Navbar item with label 文档"
+  },
+  "item.label.常见问题": {
+    "message": "FAQ",
+    "description": "Navbar item with label 常见问题"
+  },
+  "item.label.产品更新": {
+    "message": "Product Updates",
+    "description": "Navbar item with label 产品更新"
+  },
+  "item.label.联系客服": {
+    "message": "Contact Support",
+    "description": "Navbar item with label 联系客服"
+  },
+  "logo.alt": {
+    "message": "Forex Help Center Logo",
+    "description": "The alt text of navbar logo"
+  }
+}
