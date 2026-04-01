@@ -1,14 +1,13 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { useLocation } from '@docusaurus/router';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import { Intercom, update } from '@intercom/messenger-js-sdk';
+import Intercom from '@intercom/messenger-js-sdk';
 
-// ✅ 替换为您的实际 Intercom App ID
-const INTERCOM_APP_ID = 'your-intercom-app-id';
+// ✅ Intercom App ID
+const INTERCOM_APP_ID = 'xmlmu479';
 
 /**
  * 从 URL 路径解析出所属的文档分类
- * 例如 /docs/deposits-withdrawals/withdrawal-pending → "Deposits & Withdrawals"
  */
 function getCategoryFromPath(pathname: string): string {
   const categoryMap: Record<string, string> = {
@@ -51,49 +50,76 @@ function getIntercomLanguage(locale: string): string {
   return localeMap[locale] ?? 'en';
 }
 
+// 打开 Intercom 的全局函数
+function openIntercom() {
+  const w = window as any;
+  if (w.Intercom) {
+    w.Intercom('show');
+  } else {
+    console.warn('⚠️ Intercom 未加载');
+  }
+}
+
+// 挂载到 window 上
+if (typeof window !== 'undefined') {
+  (window as any).openIntercom = openIntercom;
+}
+
 export default function IntercomProviderWrapper() {
   const location = useLocation();
   const { i18n } = useDocusaurusContext();
   const currentLocale = i18n.currentLocale;
+  const [isReady, setIsReady] = useState(false);
 
-  // 初始化 Intercom（仅执行一次）
+  // 初始化 Intercom
   useEffect(() => {
-    Intercom({
-      app_id: INTERCOM_APP_ID,
-      // 隐藏默认的 Intercom 圆形按钮，由我们的导航栏按钮触发
-      hide_default_launcher: true,
-      // 导航栏"联系客服"按钮的 CSS class
-      custom_launcher_selector: '.intercom-trigger-btn',
-      // 初始语言
-      language_override: getIntercomLanguage(currentLocale),
-    });
+    try {
+      Intercom({
+        app_id: INTERCOM_APP_ID,
+        hide_default_launcher: true,
+        language_override: getIntercomLanguage(currentLocale),
+      });
+      setIsReady(true);
+      console.log('✅ Intercom 初始化成功');
+    } catch (error) {
+      console.error('❌ Intercom 初始化失败:', error);
+    }
   }, []);
 
   // 每次页面路由变化时，更新 Intercom 上下文
   useEffect(() => {
-    const fullUrl = typeof window !== 'undefined'
-      ? window.location.href
-      : location.pathname;
+    if (!isReady) return;
 
+    const fullUrl = typeof window !== 'undefined' ? window.location.href : location.pathname;
     const category = getCategoryFromPath(location.pathname);
     const language = getIntercomLanguage(currentLocale);
+    const pageTitle = typeof document !== 'undefined' ? document.title : '';
 
-    // 获取页面标题
-    const pageTitle = typeof document !== 'undefined'
-      ? document.title
-      : '';
+    if (typeof window !== 'undefined' && (window as any).Intercom) {
+      (window as any).Intercom('update', {
+        'Current Page URL':    fullUrl,
+        'Current Page Title':  pageTitle,
+        'Support Category':    category,
+        'User Language':       language,
+        'User Locale':         currentLocale,
+      });
+    }
+  }, [location.pathname, currentLocale, isReady]);
 
-    update({
-      // 当前访问的文档页面完整 URL
-      last_request_at: Math.floor(Date.now() / 1000),
-      // 自定义字段：传递上下文给客服
-      'Current Page URL':      fullUrl,
-      'Current Page Title':    pageTitle,
-      'Support Category':      category,
-      'User Language':         language,
-      'User Locale':           currentLocale,
-    });
-  }, [location.pathname, currentLocale]);
+  // 监听点击事件，拦截"联系客服"按钮
+  useEffect(() => {
+    const handleClick = (e: MouseEvent) => {
+      const target = e.target as HTMLElement;
+      // 检查是否点击了带有 intercom-trigger-btn 类的链接
+      if (target.closest('.intercom-trigger-btn')) {
+        e.preventDefault();
+        openIntercom();
+      }
+    };
+
+    document.addEventListener('click', handleClick);
+    return () => document.removeEventListener('click', handleClick);
+  }, []);
 
   return null;
 }

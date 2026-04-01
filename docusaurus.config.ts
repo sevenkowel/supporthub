@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Forex Help Center',
   tagline: '外汇保证金交易帮助中心',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.png',
 
   future: {
     v4: true,
@@ -111,7 +111,7 @@ const config: Config = {
     announcementBar: {
       id: 'announcement',
       content:
-        '平台已完成系统升级，新增 50+ 交易品种。如遇问题请联系 <a href="javascript:void(0)" onclick="window.Intercom && window.Intercom(\'show\')">在线客服</a>',
+        '平台已完成系统升级，新增 50+ 交易品种。如遇问题请联系 <a href="#" onclick="event.preventDefault(); document.querySelector(\'.intercom-trigger-btn\')?.click();">在线客服</a>',
       backgroundColor: '#f6f6f7',
       textColor: '#213547',
       isCloseable: true,
@@ -120,7 +120,7 @@ const config: Config = {
       title: 'Help Center',
       logo: {
         alt: 'Forex Help Center Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo 品牌.png',
       },
       items: [
         {
@@ -141,7 +141,7 @@ const config: Config = {
           position: 'right',
         },
         {
-          href: 'javascript:void(0)',
+          href: '#',
           label: '联系客服',
           position: 'right',
           className: 'intercom-trigger-btn',

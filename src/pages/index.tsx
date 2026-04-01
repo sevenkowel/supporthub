@@ -25,7 +25,7 @@ function HomepageHeader() {
           </Link>
           <button
             className="vue-btn-outline"
-            onClick={() => window.Intercom && window.Intercom('show')}
+            onClick={() => (window as any).Intercom && (window as any).Intercom('show')}
           >
             联系客服
           </button>
